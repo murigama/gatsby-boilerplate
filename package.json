@@ -1,9 +1,9 @@
 {
   "name": "gatsby-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Gatsby Boilerplate",
-  "author": "Murilo Gama",
+  "author": "Murilo Gama <fale@murilogama.com.br>",
   "keywords": [
     "gatsby"
   ],
