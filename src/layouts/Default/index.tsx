@@ -1,13 +1,22 @@
+import { Footer, Header } from 'components/shared'
 import * as React from 'react'
-import { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from 'styles'
-import theme from '../../styles/theme/default.json'
+import theme from 'styles/theme/default.json'
+
+export const Wrapper = styled.main`
+  overflow: hidden;
+`
 
 const DefaultLayout: React.FC = ({ children }) => {
   return (
-    <ThemeProvider theme={ theme }>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
-      {children}
+      <Header />
+      <Wrapper role="main">
+        {children}
+      </Wrapper>
+      <Footer />
     </ThemeProvider>
       
   );
