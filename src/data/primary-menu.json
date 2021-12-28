@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Home",
+    "link": "/"
+  },
+  {
+    "label": "About",
+    "link": "/about"
+  },
+  {
+    "label": "Contact",
+    "link": "/contact"
+  },
+  {
+    "label": "Submenu",
+    "link": "#",
+    "submenu": [
+      {
+        "label": "Submenu 1",
+        "link": "#"
+      },
+      {
+        "label": "Submenu 2",
+        "link": "#"
+      },
+      {
+        "label": "Submenu 2",
+        "link": "#"
+      }
+  ]
+  }
+]
